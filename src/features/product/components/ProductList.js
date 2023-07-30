@@ -467,6 +467,8 @@ function Pagination({ page, setPage, handlePage, totalItems }) {
   );
 }
 
+
+
 function ProductGrid({ products }) {
   return (
     <div className="bg-white">
