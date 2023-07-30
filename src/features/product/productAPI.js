@@ -1,4 +1,3 @@
-
 export function fetchAllProducts() {
   return new Promise(async(resolve) => {
     //TODO : we will not hardcode server url here 
@@ -10,16 +9,16 @@ export function fetchAllProducts() {
 }
 
 
-export function fetchProductsByFilters() {
+export function fetchProductsByFilters(filter) {
   //filter  = {"category" : "smartphone"}
-  let quetString ='';
+  let queryString ='';
   for(let key in filter)
   {
-    quetString += `${key}=${filter[key]}&`
+    queryString += `${key}=${filter[key]}&`
   }
   return new Promise(async(resolve) => {
     //TODO : we will not hardcode server url here 
-    const response = await fetch('http://localhost:8080/products?'+quetString)
+    const response = await fetch('http://localhost:8080/products?'+queryString)
     const data = await response.json();
     resolve({data})
 }
