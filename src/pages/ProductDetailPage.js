@@ -7,4 +7,4 @@ function ProductDetailPage() {
     </Navbar>        
     );
 }
-export default ProductDetailPagedefault ;
+export default ProductDetailPage ;
