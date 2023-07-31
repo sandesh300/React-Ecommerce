@@ -8,11 +8,20 @@ export function fetchAllProducts() {
   );
 }
 
+export function fetchProductById(id) {
+  return new Promise(async (resolve) =>{
+    //TODO: we will not hard-code server URL here
+    const response = await fetch('http://localhost:8080/products/'+id) 
+    const data = await response.json()
+    resolve({data})
+  }
+  );
+}
+
 export function fetchProductsByFilters(filter,sort,pagination) {
   // filter = {"category":["smartphone","laptops"]}
   // sort = {_sort:"price",_order="desc"}
-  // pagination = {_page: 1, _limit=10}
-
+  // pagination = {_page:1,_limit=10} 
   // TODO : on server we will support multi values in filter
   let queryString = '';
   for(let key in filter){
@@ -31,7 +40,6 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   }
 
 
-
   return new Promise(async (resolve) =>{
     //TODO: we will not hard-code server URL here
     const response = await fetch('http://localhost:8080/products?'+queryString) 
@@ -42,10 +50,10 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   );
 }
 
+
 export function fetchCategories() {
   return new Promise(async (resolve) =>{
-    //TODO: we will not hard-code server URL here
-    const response = await fetch('http://localhost:8080/categories ') 
+    const response = await fetch('http://localhost:8080/categories') 
     const data = await response.json()
     resolve({data})
   }
@@ -54,7 +62,6 @@ export function fetchCategories() {
 
 export function fetchBrands() {
   return new Promise(async (resolve) =>{
-    //TODO: we will not hard-code server URL here
     const response = await fetch('http://localhost:8080/brands') 
     const data = await response.json()
     resolve({data})
