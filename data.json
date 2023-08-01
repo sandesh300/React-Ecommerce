@@ -1083,27 +1083,6 @@
       "id": 3
     },
     {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "quantity": 4,
-      "user": 1,
-      "id": 8
-    },
-    {
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
@@ -1119,36 +1098,35 @@
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
-      "quantity": 5,
+      "quantity": 1,
       "user": 1,
-      "id": 9
+      "id": 4
+    },
+    {
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/7/1.jpg",
+        "https://i.dummyjson.com/data/products/7/2.jpg",
+        "https://i.dummyjson.com/data/products/7/3.jpg",
+        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 5
     }
   ],
   "orders": [
     {
       "items": [
         {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
           "title": "iPhone X",
           "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
           "price": 899,
@@ -1164,84 +1142,54 @@
             "https://i.dummyjson.com/data/products/2/3.jpg",
             "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
           ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
           "quantity": 1,
           "user": 1,
-          "id": 10
+          "id": 9
         }
       ],
-      "totalAmount": 7190,
-      "totalItems": 10,
+      "totalAmount": 899,
+      "totalItems": 1,
       "user": {
         "email": "sandesh@gmail.com",
         "password": "Sandesh@30",
         "addresses": [
           {
-            "name": "dqd",
+            "name": "atharva gawali",
             "email": "sandesh@gmail.com",
             "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
+            "street": "saswad",
+            "city": "pune",
+            "state": "maharshtra",
             "pinCode": "5621225"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305"
           }
         ],
         "id": 1
       },
-      "paymentMethod": "cash",
+      "paymentMethod": "card",
       "selectedAddress": {
-        "name": "dqd",
+        "name": "atharva gawali",
         "email": "sandesh@gmail.com",
         "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
+        "street": "saswad",
+        "city": "pune",
+        "state": "maharshtra",
         "pinCode": "5621225"
       },
+      "status": "pending",
       "id": 1
     },
     {
       "items": [
         {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
           "title": "iPhone X",
           "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
           "price": 899,
@@ -1257,524 +1205,131 @@
             "https://i.dummyjson.com/data/products/2/3.jpg",
             "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
           ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
           "quantity": 1,
           "user": 1,
-          "id": 10
+          "id": 9
         }
       ],
-      "totalAmount": 7190,
-      "totalItems": 10,
+      "totalAmount": 899,
+      "totalItems": 1,
       "user": {
         "email": "sandesh@gmail.com",
         "password": "Sandesh@30",
         "addresses": [
           {
-            "name": "dqd",
+            "name": "atharva gawali",
             "email": "sandesh@gmail.com",
             "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
+            "street": "saswad",
+            "city": "pune",
+            "state": "maharshtra",
             "pinCode": "5621225"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305"
           }
         ],
         "id": 1
       },
-      "paymentMethod": "cash",
+      "paymentMethod": "card",
       "selectedAddress": {
-        "name": "dqd",
+        "name": "atharva gawali",
         "email": "sandesh@gmail.com",
         "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
+        "street": "saswad",
+        "city": "pune",
+        "state": "maharshtra",
         "pinCode": "5621225"
       },
+      "status": "pending",
       "id": 2
     },
     {
       "items": [
         {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 280,
+          "discountPercentage": 17.91,
+          "rating": 4.3,
+          "stock": 123,
+          "brand": "OPPO",
           "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/4.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
           ],
           "quantity": 1,
           "user": 1,
-          "id": 10
+          "id": 4
+        },
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 5
         }
       ],
-      "totalAmount": 7190,
-      "totalItems": 10,
+      "totalAmount": 1529,
+      "totalItems": 2,
       "user": {
         "email": "sandesh@gmail.com",
         "password": "Sandesh@30",
         "addresses": [
           {
-            "name": "dqd",
+            "name": "atharva gawali",
             "email": "sandesh@gmail.com",
             "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
+            "street": "saswad",
+            "city": "pune",
+            "state": "maharshtra",
             "pinCode": "5621225"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305"
           }
         ],
         "id": 1
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "dqd",
+        "name": "atharva gawali",
         "email": "sandesh@gmail.com",
         "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
+        "street": "saswad",
+        "city": "pune",
+        "state": "maharshtra",
         "pinCode": "5621225"
       },
+      "status": "pending",
       "id": 3
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 10
-        }
-      ],
-      "totalAmount": 7190,
-      "totalItems": 10,
-      "user": {
-        "email": "sandesh@gmail.com",
-        "password": "Sandesh@30",
-        "addresses": [
-          {
-            "name": "dqd",
-            "email": "sandesh@gmail.com",
-            "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
-            "pinCode": "5621225"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "dqd",
-        "email": "sandesh@gmail.com",
-        "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
-        "pinCode": "5621225"
-      },
-      "id": 4
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 10
-        }
-      ],
-      "totalAmount": 7190,
-      "totalItems": 10,
-      "user": {
-        "email": "sandesh@gmail.com",
-        "password": "Sandesh@30",
-        "addresses": [
-          {
-            "name": "dqd",
-            "email": "sandesh@gmail.com",
-            "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
-            "pinCode": "5621225"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "dqd",
-        "email": "sandesh@gmail.com",
-        "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
-        "pinCode": "5621225"
-      },
-      "id": 5
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 10
-        }
-      ],
-      "totalAmount": 7190,
-      "totalItems": 10,
-      "user": {
-        "email": "sandesh@gmail.com",
-        "password": "Sandesh@30",
-        "addresses": [
-          {
-            "name": "dqd",
-            "email": "sandesh@gmail.com",
-            "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
-            "pinCode": "5621225"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "dqd",
-        "email": "sandesh@gmail.com",
-        "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
-        "pinCode": "5621225"
-      },
-      "id": 6
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 8
-        },
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        },
-        {
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-          "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/5/1.jpg",
-            "https://i.dummyjson.com/data/products/5/2.jpg",
-            "https://i.dummyjson.com/data/products/5/3.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 10
-        }
-      ],
-      "totalAmount": 7190,
-      "totalItems": 10,
-      "user": {
-        "email": "sandesh@gmail.com",
-        "password": "Sandesh@30",
-        "addresses": [
-          {
-            "name": "dqd",
-            "email": "sandesh@gmail.com",
-            "phone": "7894561230",
-            "street": "wrytrhrt",
-            "city": "htfs",
-            "state": "hsh",
-            "pinCode": "5621225"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "dqd",
-        "email": "sandesh@gmail.com",
-        "phone": "7894561230",
-        "street": "wrytrhrt",
-        "city": "htfs",
-        "state": "hsh",
-        "pinCode": "5621225"
-      },
-      "id": 7
     }
   ]
 }
