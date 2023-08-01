@@ -1053,15 +1053,6 @@
       "password": "Sandesh@30",
       "addresses": [
         {
-          "name": "atharva gawali",
-          "email": "sandesh@gmail.com",
-          "phone": "7894561230",
-          "street": "saswad",
-          "city": "pune",
-          "state": "maharshtra",
-          "pinCode": "5621225"
-        },
-        {
           "name": "sandesh bhujbal",
           "email": "sandesh@gmail.com",
           "phone": "7620531346",
@@ -1081,46 +1072,6 @@
     },
     {
       "id": 3
-    },
-    {
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 4
-    },
-    {
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 5
     }
   ],
   "orders": [
@@ -1330,6 +1281,89 @@
       },
       "status": "pending",
       "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 4
+        },
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 5
+        }
+      ],
+      "totalAmount": 2398,
+      "totalItems": 2,
+      "user": {
+        "email": "sandesh@gmail.com",
+        "password": "Sandesh@30",
+        "addresses": [
+          {
+            "name": "atharva gawali",
+            "email": "sandesh@gmail.com",
+            "phone": "7894561230",
+            "street": "saswad",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "5621225"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "atharva gawali",
+        "email": "sandesh@gmail.com",
+        "phone": "7894561230",
+        "street": "saswad",
+        "city": "pune",
+        "state": "maharshtra",
+        "pinCode": "5621225"
+      },
+      "status": "pending",
+      "id": 4
     }
   ]
 }
