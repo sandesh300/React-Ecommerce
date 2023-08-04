@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { StarIcon } from '@heroicons/react/20/solid';
 import { RadioGroup } from '@headlessui/react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProductByIdAsync, selectProductById } from '../productSlice';
+import { fetchAllProductByIdAsync, selectProductById } from '../productSlice';
 import { useParams } from 'react-router-dom';
 import { addToCartAsync } from '../../cart/cartSlice';
 import { selectLoggedInUser } from '../../auth/authSlice';
@@ -14,16 +14,16 @@ const colors = [
   { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
   { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
 ];
-const sizes = [
-  { name: 'XXS', inStock: false },
-  { name: 'XS', inStock: true },
-  { name: 'S', inStock: true },
-  { name: 'M', inStock: true },
-  { name: 'L', inStock: true },
-  { name: 'XL', inStock: true },
-  { name: '2XL', inStock: true },
-  { name: '3XL', inStock: true },
-];
+// const sizes = [
+//   { name: 'XXS', inStock: false },
+//   { name: 'XS', inStock: true },
+//   { name: 'S', inStock: true },
+//   { name: 'M', inStock: true },
+//   { name: 'L', inStock: true },
+//   { name: 'XL', inStock: true },
+//   { name: '2XL', inStock: true },
+//   { name: '3XL', inStock: true },
+// ];
 
 const highlights = [
   'Hand cut and sewn locally',
@@ -40,7 +40,7 @@ function classNames(...classes) {
 
 export default function ProductDetail() {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
-  const [selectedSize, setSelectedSize] = useState(sizes[2]);
+  // const [selectedSize, setSelectedSize] = useState(sizes[2]);
   const user = useSelector(selectLoggedInUser);
   const product = useSelector(selectProductById);
   const dispatch = useDispatch();
@@ -54,7 +54,7 @@ export default function ProductDetail() {
   };
 
   useEffect(() => {
-    dispatch(fetchProductByIdAsync(params.id));
+    dispatch(fetchAllProductByIdAsync(params.id));
   }, [dispatch, params.id]);
 
   return (
@@ -226,7 +226,7 @@ export default function ProductDetail() {
                     </a>
                   </div>
 
-                  <RadioGroup
+                  {/* <RadioGroup
                     value={selectedSize}
                     onChange={setSelectedSize}
                     className="mt-4"
@@ -292,9 +292,9 @@ export default function ProductDetail() {
                         </RadioGroup.Option>
                       ))}
                     </div>
-                  </RadioGroup>
-                </div>
+                  </RadioGroup> */}
 
+                </div>
                 <button
                   onClick={handleCart}
                   type="submit"

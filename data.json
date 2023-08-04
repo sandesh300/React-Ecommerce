@@ -196,7 +196,8 @@
         "https://i.dummyjson.com/data/products/11/2.jpg",
         "https://i.dummyjson.com/data/products/11/3.jpg",
         "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 12,
@@ -551,6 +552,24 @@
         "https://i.dummyjson.com/data/products/30/3.jpg",
         "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "SAMSUNG Galaxy S21 ",
+      "description": "\nWith the Samsung Galaxy S21 FE, you can experience seamless gaming and mesmerising photography. This device is made to make you smile every time you unlock it. With only a little tap, you can capture amazing moments with this phone's professional-grade camera. Additionally, the 32 MP front camera on this device enables you to take amazing selfies with colourful images. Furthermore, you can make use of this phone's 16.28 cm (6.4) dynamic AMOLED 2X display to significantly improve your multimedia experience. In addition, this phone's 120 Hz Super Smooth Display helps you to play your favourite games smoothly without any stuttering.",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 1000,
+      "discountPercentage": 10,
+      "stock": 71,
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70",
+      "images": [
+        "https://rukminim2.flixcart.com/image/416/416/kzpw2vk0/mobile/h/n/5/galaxy-s21-fe-5g-lavender-8gb-128gb-storage-sm-g990elviinu-original-imagbnbdj2hmrbyq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/s/7/4/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzf28x3j5k.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/b/v/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzhzxsqhyc.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70"
+      ],
+      "rating": 4.4,
+      "id": 31
     }
   ],
   "brands": [
@@ -1050,7 +1069,8 @@
   "users": [
     {
       "email": "sandesh@gmail.com",
-      "password": "Sandesh@30",
+      "password": "Sandesh30",
+      "role": "user",
       "addresses": [
         {
           "name": "omkar Pawar",
@@ -1063,6 +1083,13 @@
         }
       ],
       "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Admin123",
+      "addresses": [],
+      "role": "admin",
+      "id": 2
     }
   ],
   "cart": [
@@ -1093,6 +1120,26 @@
       "quantity": 1,
       "user": 1,
       "id": 6
+    },
+    {
+      "title": "SAMSUNG Galaxy S21 ",
+      "description": "\nWith the Samsung Galaxy S21 FE, you can experience seamless gaming and mesmerising photography. This device is made to make you smile every time you unlock it. With only a little tap, you can capture amazing moments with this phone's professional-grade camera. Additionally, the 32 MP front camera on this device enables you to take amazing selfies with colourful images. Furthermore, you can make use of this phone's 16.28 cm (6.4) dynamic AMOLED 2X display to significantly improve your multimedia experience. In addition, this phone's 120 Hz Super Smooth Display helps you to play your favourite games smoothly without any stuttering.",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 1000,
+      "discountPercentage": 10,
+      "stock": 71,
+      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70",
+      "images": [
+        "https://rukminim2.flixcart.com/image/416/416/kzpw2vk0/mobile/h/n/5/galaxy-s21-fe-5g-lavender-8gb-128gb-storage-sm-g990elviinu-original-imagbnbdj2hmrbyq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/s/7/4/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzf28x3j5k.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/b/v/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzhzxsqhyc.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70"
+      ],
+      "rating": 4.4,
+      "quantity": 1,
+      "user": 1,
+      "id": 7
     }
   ],
   "orders": [
