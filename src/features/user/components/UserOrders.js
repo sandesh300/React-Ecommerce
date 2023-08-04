@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { 
+import {
   fetchLoggedInUserOrderAsync,
   selectUserInfo,
-  selectUserOrders
- } from '../userSlice';
+  selectUserOrders,
+} from '../userSlice';
+import { discountedPrice } from '../../../app/constants';
 
 export default function UserOrders() {
   const dispatch = useDispatch();
@@ -13,7 +14,7 @@ export default function UserOrders() {
 
   useEffect(() => {
     dispatch(fetchLoggedInUserOrderAsync(user.id));
-  }, [dispatch,user]);
+  }, [dispatch, user]);
 
   return (
     <div>
@@ -29,7 +30,7 @@ export default function UserOrders() {
                   Order Status : {order.status}
                 </h3>
                 <div className="flow-root">
-                <ul className="-my-6 divide-y divide-gray-200">
+                  <ul className="-my-6 divide-y divide-gray-200">
                     {order.items.map((item) => (
                       <li key={item.id} className="flex py-6">
                         <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
@@ -46,7 +47,7 @@ export default function UserOrders() {
                               <h3>
                                 <a href={item.href}>{item.title}</a>
                               </h3>
-                              <p className="ml-4">${item.price}</p>
+                              <p className="ml-4">${discountedPrice(item)}</p>
                             </div>
                             <p className="mt-1 text-sm text-gray-500">
                               {item.brand}

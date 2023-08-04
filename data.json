@@ -1080,6 +1080,15 @@
           "pinCode": "412305",
           "phone": "7620531346",
           "street": "walhe"
+        },
+        {
+          "name": "sandesh bhujbal",
+          "email": "sandesh@gmail.com",
+          "phone": "7620531346",
+          "street": "walhe",
+          "city": "pune",
+          "state": "maharashtra",
+          "pinCode": "412305"
         }
       ],
       "id": 1
@@ -1101,45 +1110,25 @@
       "id": 3
     },
     {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "title": "Fog Scent Xpressio Perfume",
+      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+      "price": 13,
+      "discountPercentage": 8.14,
+      "rating": 4.59,
+      "stock": 61,
+      "brand": "Fog Scent Xpressio",
+      "category": "fragrances",
+      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
       "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/13/1.jpg",
+        "https://i.dummyjson.com/data/products/13/2.png",
+        "https://i.dummyjson.com/data/products/13/3.jpg",
+        "https://i.dummyjson.com/data/products/13/4.jpg",
+        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
       ],
-      "quantity": 1,
+      "quantity": 3,
       "user": 1,
-      "id": 6
-    },
-    {
-      "title": "SAMSUNG Galaxy S21 ",
-      "description": "\nWith the Samsung Galaxy S21 FE, you can experience seamless gaming and mesmerising photography. This device is made to make you smile every time you unlock it. With only a little tap, you can capture amazing moments with this phone's professional-grade camera. Additionally, the 32 MP front camera on this device enables you to take amazing selfies with colourful images. Furthermore, you can make use of this phone's 16.28 cm (6.4) dynamic AMOLED 2X display to significantly improve your multimedia experience. In addition, this phone's 120 Hz Super Smooth Display helps you to play your favourite games smoothly without any stuttering.",
-      "brand": "Samsung",
-      "category": "smartphones",
-      "price": 1000,
-      "discountPercentage": 10,
-      "stock": 71,
-      "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70",
-      "images": [
-        "https://rukminim2.flixcart.com/image/416/416/kzpw2vk0/mobile/h/n/5/galaxy-s21-fe-5g-lavender-8gb-128gb-storage-sm-g990elviinu-original-imagbnbdj2hmrbyq.jpeg?q=70",
-        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/s/7/4/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzf28x3j5k.jpeg?q=70",
-        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/b/v/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzhzxsqhyc.jpeg?q=70",
-        "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70"
-      ],
-      "rating": 4.4,
-      "quantity": 1,
-      "user": 1,
-      "id": 7
+      "id": 5
     }
   ],
   "orders": [
@@ -1266,7 +1255,7 @@
         "state": "maharshtra",
         "pinCode": "5621225"
       },
-      "status": "pending",
+      "status": "cancelled",
       "id": 2
     },
     {
@@ -1580,7 +1569,7 @@
         "phone": "7620531346",
         "street": "walhe"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": 6
     },
     {
@@ -1655,8 +1644,114 @@
         "phone": "7620531346",
         "street": "walhe"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 6
+        },
+        {
+          "title": "SAMSUNG Galaxy S21 ",
+          "description": "\nWith the Samsung Galaxy S21 FE, you can experience seamless gaming and mesmerising photography. This device is made to make you smile every time you unlock it. With only a little tap, you can capture amazing moments with this phone's professional-grade camera. Additionally, the 32 MP front camera on this device enables you to take amazing selfies with colourful images. Furthermore, you can make use of this phone's 16.28 cm (6.4) dynamic AMOLED 2X display to significantly improve your multimedia experience. In addition, this phone's 120 Hz Super Smooth Display helps you to play your favourite games smoothly without any stuttering.",
+          "brand": "Samsung",
+          "category": "smartphones",
+          "price": 1000,
+          "discountPercentage": 10,
+          "stock": 71,
+          "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70",
+          "images": [
+            "https://rukminim2.flixcart.com/image/416/416/kzpw2vk0/mobile/h/n/5/galaxy-s21-fe-5g-lavender-8gb-128gb-storage-sm-g990elviinu-original-imagbnbdj2hmrbyq.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/s/7/4/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzf28x3j5k.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/b/v/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzhzxsqhyc.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/kzrbiq80/mobile/h/x/n/galaxy-s21-fe-5g-sm-g990ezaiinu-samsung-original-imagbpfzbrnueypq.jpeg?q=70"
+          ],
+          "rating": 4.4,
+          "quantity": 1,
+          "user": 1,
+          "id": 7
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 8
+        }
+      ],
+      "totalAmount": 2347,
+      "totalItems": 3,
+      "user": {
+        "email": "sandesh@gmail.com",
+        "password": "Sandesh30",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "omkar Pawar",
+            "email": "sandesh@gmail.com",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305",
+            "phone": "7620531346",
+            "street": "walhe"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharashtra",
+            "pinCode": "412305"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "sandesh bhujbal",
+        "email": "sandesh@gmail.com",
+        "phone": "7620531346",
+        "street": "walhe",
+        "city": "pune",
+        "state": "maharashtra",
+        "pinCode": "412305"
+      },
+      "status": "pending",
+      "id": 8
     }
   ]
 }
