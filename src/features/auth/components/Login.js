@@ -1,3 +1,4 @@
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectError, selectLoggedInUser } from '../authSlice';
 import { Link, Navigate } from 'react-router-dom';
@@ -19,14 +20,27 @@ export default function Login() {
   return (
     <>
       {user && <Navigate to="/" replace={true}></Navigate>}
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      <div
+        className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8"
+        style={{
+          backgroundImage: "url('/shopping-bag-cart.jpg')", // Set background image here
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        {/* Rest of the component code remains the same */}
+    
+  
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
-            className="mx-auto h-10 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            className="mx-auto h-24 w-24 rounded-full"
+            src="/ecommerce.jpg"
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2
+            className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
+            style={{ color: '#2d3748' }}
+          >
             Log in to your account
           </h2>
         </div>
@@ -60,6 +74,11 @@ export default function Login() {
                   })}
                   type="email"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  style={{
+                    backgroundColor: 'white',
+                    borderRadius: '8px',
+                    padding: '8px',
+                  }}
                 />
                 {errors.email && (
                   <p className="text-red-500">{errors.email.message}</p>
@@ -92,29 +111,47 @@ export default function Login() {
                   })}
                   type="password"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  style={{
+                    backgroundColor: 'white',
+                    borderRadius: '8px',
+                    padding: '8px',
+                  }}
                 />
                 {errors.password && (
                   <p className="text-red-500">{errors.password.message}</p>
                 )}
               </div>
-              {error && <p className="text-red-500">{error.message}</p>}
+              {error && (
+                <p className="text-red-500" style={{ marginTop: '8px' }}>
+                  {error.message}
+                </p>
+              )}
             </div>
 
             <div>
               <button
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                style={{
+                  backgroundColor: '#6366f1',
+                  borderRadius: '8px',
+                  padding: '10px',
+                }}
               >
                 Log in
               </button>
             </div>
           </form>
 
-          <p className="mt-10 text-center text-sm text-gray-500">
+          <p
+            className="mt-10 text-center text-sm text-gray-500"
+            style={{ color: '#4a5568' }}
+          >
             Not a member?{' '}
             <Link
               to="/signup"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              style={{ textDecoration: 'underline' }}
             >
               Create an Account
             </Link>

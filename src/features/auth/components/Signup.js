@@ -1,6 +1,6 @@
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
-
 import { selectLoggedInUser, createUserAsync } from '../authSlice';
 import { Link } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
@@ -20,14 +20,15 @@ export default function Signup() {
   return (
     <>
       {user && <Navigate to="/" replace={true}></Navigate>}
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      
+      <div style={{ background: 'linear-gradient(to bottom right, #63b3ed, #f7fafc)' }} className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
-            className="mx-auto h-10 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            className="mx-auto h-24 w-24 rounded-full"
+            src="/ecommerce.jpg"
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black">
             Create a New Account
           </h2>
         </div>
@@ -43,13 +44,12 @@ export default function Signup() {
                   password: data.password,
                   addresses: [],
                   role:'user'
-                  //TODO: this role can be directly given on backend
                 })
               );
               console.log(data);
             })}
           >
-            <div>
+              <div>
               <label
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"

@@ -1110,23 +1110,45 @@
       "id": 3
     },
     {
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
-      "quantity": 3,
+      "productId": 2,
+      "quantity": 1,
+      "user": 1,
+      "id": 4
+    },
+    {
+      "title": "perfume Oil",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+      "price": 13,
+      "discountPercentage": 8.4,
+      "rating": 4.26,
+      "stock": 65,
+      "brand": "Impression of Acqua Di Gio",
+      "category": "fragrances",
+      "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/11/1.jpg",
+        "https://i.dummyjson.com/data/products/11/2.jpg",
+        "https://i.dummyjson.com/data/products/11/3.jpg",
+        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+      ],
+      "deleted": true,
+      "productId": 11,
+      "quantity": 1,
       "user": 1,
       "id": 5
     }
@@ -1336,7 +1358,7 @@
         "state": "maharshtra",
         "pinCode": "5621225"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 3
     },
     {
@@ -1750,8 +1772,73 @@
         "state": "maharashtra",
         "pinCode": "412305"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "quantity": 3,
+          "user": 1,
+          "id": 5
+        }
+      ],
+      "totalAmount": 36,
+      "totalItems": 3,
+      "user": {
+        "email": "sandesh@gmail.com",
+        "password": "Sandesh30",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "omkar Pawar",
+            "email": "sandesh@gmail.com",
+            "city": "pune",
+            "state": "maharshtra",
+            "pinCode": "412305",
+            "phone": "7620531346",
+            "street": "walhe"
+          },
+          {
+            "name": "sandesh bhujbal",
+            "email": "sandesh@gmail.com",
+            "phone": "7620531346",
+            "street": "walhe",
+            "city": "pune",
+            "state": "maharashtra",
+            "pinCode": "412305"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "sandesh bhujbal",
+        "email": "sandesh@gmail.com",
+        "phone": "7620531346",
+        "street": "walhe",
+        "city": "pune",
+        "state": "maharashtra",
+        "pinCode": "412305"
+      },
+      "status": "pending",
+      "id": 9
     }
   ]
 }
