@@ -1,18 +1,22 @@
-import React from 'react';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import {
+  Bars3Icon,
+  ShoppingCartIcon,
+  XMarkIcon,
+} from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectItems } from '../cart/cartSlice';
 import { selectLoggedInUser } from '../auth/authSlice';
 
+
 const navigation = [
   { name: 'Products', link: '/', user: true },
   { name: 'Products', link: '/admin', admin: true },
   { name: 'Orders', link: '/admin/orders', admin: true },
-];
 
+];
 const userNavigation = [
   { name: 'My Profile', link: '/profile' },
   { name: 'My Orders', link: '/orders' },
@@ -149,7 +153,7 @@ function NavBar({ children }) {
                 </div>
               </div>
 
-              {/* <Disclosure.Panel className="md:hidden">
+              <Disclosure.Panel className="md:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                   {navigation.map((item) => (
                     <Disclosure.Button
@@ -179,6 +183,7 @@ function NavBar({ children }) {
                     </div>
                     <div className="ml-3">
                       <div className="text-base font-medium leading-none text-white">
+                        {/* this should come from userInfo */}
                         {user.name}
                       </div>
                       <div className="text-sm font-medium leading-none text-gray-400">
@@ -215,7 +220,7 @@ function NavBar({ children }) {
                     ))}
                   </div>
                 </div>
-              </Disclosure.Panel> */}
+              </Disclosure.Panel>
             </>
           )}
         </Disclosure>
