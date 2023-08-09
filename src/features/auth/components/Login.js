@@ -110,8 +110,7 @@ export default function Login() {
                   <p className="text-red-500">{errors.password.message}</p>
                 )}
               </div>
-              {error && <p className="text-red-500" style={{ marginTop: '8px' }}>
-              {error || error.message}
+              {error && <p className="text-red-500">{error || error.message}
               </p>}
             </div>
 
