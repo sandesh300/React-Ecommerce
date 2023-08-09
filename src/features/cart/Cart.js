@@ -87,7 +87,7 @@ export default function Cart() {
                           >
                             Qty
                           </label>
-                          <select
+                          <select 
                             onChange={(e) => handleQuantity(e, item)}
                             value={item.quantity}
                           >

@@ -425,7 +425,7 @@ function Checkout() {
                               >
                                 Qty
                               </label>
-                              <select
+                              <select  class="custom-select"
                                 onChange={(e) => handleQuantity(e, item)}
                                 value={item.quantity}
                               >
