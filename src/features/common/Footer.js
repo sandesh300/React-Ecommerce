@@ -127,7 +127,7 @@ function Footer() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2023 Copyright :
+        Contact :
         <a href={`mailto:${emailAddress}`} className="">
                 <img
                   src="email-logo.png "
