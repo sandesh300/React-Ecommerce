@@ -1,9 +1,13 @@
 {
   "name": "react-ecommerce",
   "version": "0.1.0",
-  "proxy":"http://localhost:8080",
+  "proxy": "http://localhost:8080",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
     "@reduxjs/toolkit": "^1.9.5",

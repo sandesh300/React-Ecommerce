@@ -11,7 +11,12 @@ import { selectItems } from '../cart/cartSlice';
 import { selectLoggedInUser } from '../auth/authSlice';
 import { selectUserInfo } from '../user/userSlice';
 
-
+const user = {
+  name: "Tom Cook",
+  email: "tom@example.com",
+  imageUrl:
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+};
 const navigation = [
   { name: 'Products', link: '/', user: true },
   { name: 'Products', link: '/admin', admin: true },
@@ -87,7 +92,9 @@ function NavBar({ children }) {
                         </button>
                       </Link>
                       {items.length > 0 && (
-                        <span className="inline-flex items-center rounded-md mb-7 -ml-3 bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+                        <span 
+                        className="inline-flex items-center rounded-md mb-7 -ml-3 bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+                        {/* <img src="/mail.png" alt="Image" /> */}
                           {items.length}
                         </span>
                       )}
@@ -95,11 +102,11 @@ function NavBar({ children }) {
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
                         <div>
-                          <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                          <Menu.Button img src="/mail.png" alt="Image" className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src={userInfo.imageUrl}
+                              src="/user2.png"
                               alt=""
                             />
                           </Menu.Button>

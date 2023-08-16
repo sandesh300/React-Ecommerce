@@ -31,20 +31,35 @@ function ProductForm() {
   const alert = useAlert();
 
   const colors = [
-    { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400',id:'white' },
-    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400', id:'gray' },
-    { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900',id:'black' },
+    {
+      name: 'White',
+      class: 'bg-white',
+      selectedClass: 'ring-gray-400',
+      id: 'white',
+    },
+    {
+      name: 'Gray',
+      class: 'bg-gray-200',
+      selectedClass: 'ring-gray-400',
+      id: 'gray',
+    },
+    {
+      name: 'Black',
+      class: 'bg-gray-900',
+      selectedClass: 'ring-gray-900',
+      id: 'black',
+    },
   ];
 
   const sizes = [
-    { name: 'XXS', inStock: true, id:'xxs' },
-    { name: 'XS', inStock: true, id:'xs' },
-    { name: 'S', inStock: true, id:'s' },
-    { name: 'M', inStock: true, id:'m' },
-    { name: 'L', inStock: true , id:'l'},
-    { name: 'XL', inStock: true, id:'xl' },
-    { name: '2XL', inStock: true , id:'2xl'},
-    { name: '3XL', inStock: true , id:'3xl'},
+    { name: 'XXS', inStock: true, id: 'xxs' },
+    { name: 'XS', inStock: true, id: 'xs' },
+    { name: 'S', inStock: true, id: 's' },
+    { name: 'M', inStock: true, id: 'm' },
+    { name: 'L', inStock: true, id: 'l' },
+    { name: 'XL', inStock: true, id: 'xl' },
+    { name: '2XL', inStock: true, id: '2xl' },
+    { name: '3XL', inStock: true, id: '3xl' },
   ];
 
   useEffect(() => {
@@ -72,10 +87,15 @@ function ProductForm() {
       setValue('highlight2', selectedProduct.highlights[1]);
       setValue('highlight3', selectedProduct.highlights[2]);
       setValue('highlight4', selectedProduct.highlights[3]);
-      setValue('sizes', selectedProduct.sizes.map(size=>size.id));
-      setValue('colors', selectedProduct.colors.map(color=>color.id));
+      setValue(
+        'sizes',
+        selectedProduct.sizes.map((size) => size.id)
+      );
+      setValue(
+        'colors',
+        selectedProduct.colors.map((color) => color.id)
+      );
     }
-
   }, [selectedProduct, params.id, setValue]);
 
   const handleDelete = () => {
@@ -93,19 +113,27 @@ function ProductForm() {
           const product = { ...data };
           product.images = [
             product.image1,
-            product.image2, 
+            product.image2,
             product.image3,
             product.thumbnail,
           ];
           product.highlights = [
             product.highlight1,
-            product.highlight2, 
+            product.highlight2,
             product.highlight3,
             product.highlight4,
           ];
           product.rating = 0;
-          product.colors = product.colors.map(color=>colors.find(clr=>clr.id===color));
-          product.sizes = product.sizes.map(size=>sizes.find(sz=>sz.id===size));
+          if (product.colors) {
+            product.colors = product.colors.map((color) =>
+              colors.find((clr) => clr.id === color)
+            );
+          }
+          if (product.sizes) {
+            product.sizes = product.sizes.map((size) =>
+              sizes.find((sz) => sz.id === size)
+            );
+          }
 
           delete product['image1'];
           delete product['image2'];
@@ -124,7 +152,6 @@ function ProductForm() {
           } else {
             dispatch(createProductAsync(product));
             alert.success('Product Created');
-            // TODO: these alerts should check if API failed
             reset();
           }
         })}
@@ -216,13 +243,12 @@ function ProductForm() {
                 >
                   Colors
                 </label>
-                <div className="space-x-3 mt-2">
+                <div className="spaces-2 mt-2">
                   {colors.map((color) => (
                     <>
                       <input
                         type="checkbox"
-                        {...register('colors', {
-                        })}
+                        {...register('colors', {})}
                         key={color.id}
                         value={color.id}
                       />{' '}
@@ -239,13 +265,12 @@ function ProductForm() {
                 >
                   Sizes
                 </label>
-                <div className="space-x-3 mt-2">
+                <div className="spaces-5 mt-2">
                   {sizes.map((size) => (
                     <>
                       <input
                         type="checkbox"
-                        {...register('sizes', {
-                        })}
+                        {...register('sizes', {})}
                         key={size.id}
                         value={size.id}
                       />{' '}
@@ -441,8 +466,7 @@ function ProductForm() {
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 ">
                     <input
                       type="text"
-                      {...register('highlight1', {
-                      })}
+                      {...register('highlight1', {})}
                       id="highlight1"
                       className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                     />
@@ -460,8 +484,7 @@ function ProductForm() {
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 ">
                     <input
                       type="text"
-                      {...register('highlight2', {
-                      })}
+                      {...register('highlight2', {})}
                       id="highlight2"
                       className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                     />
@@ -479,8 +502,7 @@ function ProductForm() {
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 ">
                     <input
                       type="text"
-                      {...register('highlight3', {
-                      })}
+                      {...register('highlight3', {})}
                       id="highlight3"
                       className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                     />
@@ -498,8 +520,7 @@ function ProductForm() {
                   <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 ">
                     <input
                       type="text"
-                      {...register('highlight4', {
-                      })}
+                      {...register('highlight4', {})}
                       id="highlight4"
                       className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                     />
@@ -509,13 +530,13 @@ function ProductForm() {
             </div>
           </div>
 
-          
+        
         </div>
 
         <div className="mt-6 flex items-center justify-end gap-x-6">
           <button
             type="button"
-            className="rounded-md bg-slate-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="rounded-md bg-slate-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Cancel
           </button>
