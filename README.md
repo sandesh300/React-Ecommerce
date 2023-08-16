@@ -1,8 +1,8 @@
-MERN E-Commerce 
+#MERN E-Commerce 
 with Redux Toolkit, Node js, MongoDB, Express js, Admin Panel, Stripe Payment, Cloud Deployment, Email Invoice, and many features
 
 -----------------------------------------------------------------------------------------------------------
-# Features :
+ Features :
 
 Basic E-commerce Features- Product lists, Product Details, Cart, Checkout
 Secure Card Payments / Cash payments
@@ -12,7 +12,7 @@ Authentication with Passport JS strategies
 Order Emails, Reset Password Emails
 User Profile and user orders
 ------------------------------------------------------------------------------------------------------------
-# Technical Details :
+Technical Details :
 
 React 18 with Tailwind CSS
 Redux Toolkit with Async Thunk
