@@ -4,7 +4,7 @@ with Redux Toolkit, Node js, MongoDB, Express js, Admin Panel, Stripe Payment, C
 ## Features
 
 **1. Basic E-Commerce Features:**  
-Product lists, details, cart, and checkout.   
+Product lists, sorting, product details, cart, and checkout.   
    
 **2. Secure Card Payments:**   
 Implemented using Stripe for secure transactions.   
