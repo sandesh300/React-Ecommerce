@@ -71,13 +71,11 @@ Secure payments integrated using Stripe's PaymentIntent-based custom flow.
 1. Install Node.js and npm
 2. Clone the repository
 3. Install dependencies using npm install.
-
 npm install
 Configuration instructions
 
 ## Configuration
 You need to configure the following environment variables:
-
 * STRIPE_SECRET_KEY
 * MONGODB_URI
 * EMAIL_HOST
@@ -85,24 +83,22 @@ You need to configure the following environment variables:
 * EMAIL_USER
 * EMAIL_PASSWORD
 
-## Usage
-
-To start the fronted, run the following command:
-
-npm start
-The fronted will be available at http://localhost:3000.
-
-
 ## Testing
-
 To run the tests, run the following command:   
 npm test
+
 ## Deployment
-
 The backend can be deployed to Vercel by following these instructions:
-
 1. Create a Vercel account
 2. Create a new project
 3. Select the "Github" integration
 4. Enter the repository URL
 5. Click the "Deploy" button
+
+### Log in Page -
+![Screenshot (1036)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/e12604c2-134c-483b-8731-7b90b52c5910)
+
+## Sign up page - 
+![image](https://github.com/sandesh300/React-Ecommerce/assets/92014891/aa4422a1-0524-4017-882d-956c15090886)
+
+## Home Page - 
