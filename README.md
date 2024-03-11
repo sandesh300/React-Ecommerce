@@ -1,8 +1,10 @@
-## MERN E-Commerce 
-with Redux Toolkit, Node js, MongoDB, Express js, Admin Panel, Stripe Payment, Cloud Deployment, Email Invoice, and many features...
+# MERN E-Commerce 
+MERN E-Commerce is an innovative online shopping platform built using the MERN stack, 
+which stands for MongoDB, Express.js, React, and Node.js. It's a comprehensive solution 
+that enables businesses to set up and manage their online stores with ease while providing 
+customers with a seamless shopping experience. 
 
-## Features
-
+## Features -
 **1. Basic E-Commerce Features:**  
 Product lists, sorting, product details, cart, and checkout.   
    
@@ -24,7 +26,7 @@ Sends order and reset password emails using Nodemailer with GMail SMTP.
 **7. User Profile:**       
 Allows users to create profiles and view their order history.   
 
-## Technical Details
+## Technical Details -
 
 **1. Frontend Stack:**   
 React 18 with Tailwind CSS.   
@@ -52,6 +54,15 @@ Configurable environment variables for SMTP and other settings.
 
 **8. Payments:**   
 Secure payments integrated using Stripe's PaymentIntent-based custom flow.
+
+
+## MongoDB Collections -
+1. Brands
+2. Carts
+3. Categories
+4. Orders
+5. Products
+6. Users
 
 
 ## Getting Started   
