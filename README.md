@@ -64,7 +64,6 @@ Secure payments integrated using Stripe's PaymentIntent-based custom flow.
 5. Products
 6. Users
 
-
 ## Getting Started   
 ## Installation
 
@@ -95,10 +94,24 @@ The backend can be deployed to Vercel by following these instructions:
 4. Enter the repository URL
 5. Click the "Deploy" button
 
-### Log in Page -
+## Video
+
+## Screenshots
 ![Screenshot (1036)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/e12604c2-134c-483b-8731-7b90b52c5910)
+![image](https://github.com/sandesh300/React-Ecommerce/assets/92014891/aa4422a1-0524-4017-882d-956c15090886) 
+![Screenshot (1076)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/145394cd-2179-4d27-8b06-50794190b02c)
+![Screenshot (1077)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/e7f957cc-a8f3-40f3-98b2-66ef763425e4)
+![Screenshot (1![Screenshot (1078)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/732b00b8-fd71-474c-81ec-9611d6edf928)
+![Screenshot (1079)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/64c4f098-cad7-42c9-8b4c-3342fc7c095c)
+![Screenshot (1081)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/03c84db5-f9ec-496c-89d5-c59754fe255f)
+![Screenshot (1082)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/e73348f7-aeed-4352-8187-418e6883422c)
+![Screenshot (1083)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/74d90c8b-bb68-4f7f-8796-942c2ad12764)
+![Screenshot (1084)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/32c8d3da-5b75-47cd-b6ad-5f4f3e12f243)
+![Screenshot (1085)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/2d028db3-f0d2-49dd-945c-065aac0a4d41)
+![Screenshot (1086)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/24a131f5-fb9c-4973-94ac-0c00f3fd4c6f)
+![Screenshot (1088)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/5bc3eb45-c8e5-4982-96c8-f54b6de9958e)
+![Screenshot (1087)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/962b252e-aa6f-4107-9217-41db526eaf70)
 
-## Sign up page - 
-![image](https://github.com/sandesh300/React-Ecommerce/assets/92014891/aa4422a1-0524-4017-882d-956c15090886)
 
-## Home Page - 
+
+
