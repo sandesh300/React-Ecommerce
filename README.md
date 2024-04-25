@@ -95,6 +95,7 @@ The backend can be deployed to Vercel by following these instructions:
 5. Click the "Deploy" button
 
 ## Video
+https://github.com/sandesh300/mern-ecommerce/assets/92014891/1cd7829f-b49e-4aeb-bdbb-fea41ce290eb
 
 ## Screenshots
 ![Screenshot (1036)](https://github.com/sandesh300/React-Ecommerce/assets/92014891/e12604c2-134c-483b-8731-7b90b52c5910)
